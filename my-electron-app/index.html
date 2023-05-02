@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <p>Source actuelle du thème: <strong id="theme-source">System</strong></p>
+
+    <button id="toggle-dark-mode">Active/désactive le Dark Mode</button>
+    <button id="reset-to-system">Reset to System Theme</button>
+
+    <button id="start-video">Démarrer la vidéo</button> <!-- Nouveau bouton -->
+
+    <video id="start-video" width="520" height="440" controls>
+        <source src="./video/fakeAce.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <script src="./js/renderer.js"></script>
+</body>
+</html>
+

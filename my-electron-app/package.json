@@ -1,0 +1,26 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donassere/ElectronTuto.git"
+  },
+  "keywords": [
+    "tuto"
+  ],
+  "author": "don",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donassere/ElectronTuto/issues"
+  },
+  "homepage": "https://github.com/donassere/ElectronTuto#readme",
+  "devDependencies": {
+    "electron": "^24.1.3"
+  }
+}
